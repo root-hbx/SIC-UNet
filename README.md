@@ -17,7 +17,27 @@ The project contains the following components:
 ├── datasets/
 │   ├── images/                 # Folder containing the flood images
 │   ├── masks/                  # Folder containing the segmentation masks
-│   └── links.csv               # CSV file linking images to masks
+├── metadata.csv                 # A CSV file linking the images to their respective masks
 ├── flood_segmentation.ipynb     # Jupyter notebook with the model code
 ├── README.md                    # Project description and instructions
-└── .gitignore                   # Ignored files and folders (e.g., dataset, system files)
+```
+## Model Architecture
+The model used in this project is a U-Net, a popular architecture for image segmentation tasks.
+### U-Net Architecture
+**Encoder**: A series of convolutional layers and max pooling layers that capture the context of the input image.
+**Bottleneck**: The deepest part of the network where high-level features are learned.
+**Decoder**: A series of up-sampling layers and convolutional layers that help reconstruct the spatial dimensions of the input image.
+**Connections**: Links between encoder and decoder layers to retain fine details.
+The U-Net model is trained to predict flood areas from the input images.
+
+## Requirements
+To run this project, you'll need the following libraries:
+Python 3.x
+TensorFlow
+NumPy
+Matplotlib
+Pandas
+
+## Results
+
+Here is an example of the results from the model:
