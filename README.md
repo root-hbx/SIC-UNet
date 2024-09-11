@@ -24,10 +24,10 @@ The project contains the following components:
 ## Model Architecture
 The model used in this project is a U-Net, a popular architecture for image segmentation tasks.
 ### U-Net Architecture
-**Encoder**: A series of convolutional layers and max pooling layers that capture the context of the input image.
-**Bottleneck**: The deepest part of the network where high-level features are learned.
-**Decoder**: A series of up-sampling layers and convolutional layers that help reconstruct the spatial dimensions of the input image.
-**Connections**: Links between encoder and decoder layers to retain fine details.
+-**Encoder**: A series of convolutional layers and max pooling layers that capture the context of the input image.
+-**Bottleneck**: The deepest part of the network where high-level features are learned.
+-**Decoder**: A series of up-sampling layers and convolutional layers that help reconstruct the spatial dimensions of the input image.
+-**Connections**: Links between encoder and decoder layers to retain fine details.
 The U-Net model is trained to predict flood areas from the input images.
 
 ## Requirements
@@ -41,3 +41,5 @@ Pandas
 ## Results
 
 Here is an example of the results from the model:
+
+![Model Results](dataset/Predicted Mask BW.png)
