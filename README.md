@@ -42,4 +42,4 @@ Pandas
 
 Here is an example of the results from the model:
 
-![Model Results](dataset/Predicted Mask BW.png)
+![Model Results](dataset/Predicted%20Mask%20BW.png)
