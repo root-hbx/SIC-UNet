@@ -13,7 +13,7 @@ st.set_page_config(page_title="Flood Area Segmentation", layout="centered")
 # Load U-Net model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("unet_model.keras")
+    return tf.keras.models.load_model("unet_model1.keras")
 
 model = load_model()
 
