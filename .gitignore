@@ -2,3 +2,4 @@ output/
 Dataset/
 .devcontainer/
 metadata.csv
+*.zip
